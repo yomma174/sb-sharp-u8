@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Person name="Nik Dmi Ale">
+  <Address>
+    <Street>Oktyab</Street>
+    <HouseNumber>111</HouseNumber>
+    <FlatNumber>333</FlatNumber>
+  </Address>
+  <Phones>
+    <MobilePhone>89012345678</MobilePhone>
+    <FlatPhone>765-43-21</FlatPhone>
+  </Phones>
+</Person>
