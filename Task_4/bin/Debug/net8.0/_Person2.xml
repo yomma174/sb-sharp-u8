@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Person name="Никифоров Дмитрий Александрович">
+  <Address>
+    <Street>Октябрьская</Street>
+    <HouseNumber>100</HouseNumber>
+    <FlatNumber>200</FlatNumber>
+  </Address>
+  <Phones>
+    <HouseNumber>100</HouseNumber>
+    <FlatNumber>200</FlatNumber>
+  </Phones>
+</Person>
