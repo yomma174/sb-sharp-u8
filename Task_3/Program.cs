@@ -4,11 +4,11 @@
     {
         static void Main(string[] args)
         {
+            HashSet<int> set = new HashSet<int>();
+            string userInput;
             do
             {
-                HashSet<int> set = new HashSet<int>();
-    
-                string userInput = Console.ReadLine();
+                userInput = Console.ReadLine();
     
                 if (!set.Contains(int.Parse(userInput)))
                 {
