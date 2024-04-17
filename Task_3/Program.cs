@@ -4,17 +4,21 @@
     {
         static void Main(string[] args)
         {
-            HashSet<int> set = new HashSet<int>();
-
-            string userInput = Console.ReadLine();
-
-            if (!set.Contains(int.Parse(userInput)))
+            do
             {
-                set.Add(int.Parse(userInput));
-                Console.WriteLine("Число успешно сохранено.");
+                HashSet<int> set = new HashSet<int>();
+    
+                string userInput = Console.ReadLine();
+    
+                if (!set.Contains(int.Parse(userInput)))
+                {
+                    set.Add(int.Parse(userInput));
+                    Console.WriteLine("Число успешно сохранено.");
+                }
+                else
+                    Console.WriteLine("Число уже вводилось ранее.");
             }
-            else
-                Console.WriteLine("Число уже вводилось ранее.");
+            while (true)
         }
     }
 }
